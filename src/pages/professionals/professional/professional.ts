@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import {NavController, NavParams} from 'ionic-angular';
+import { NavParams } from 'ionic-angular';
 
 @Component({
   selector: 'page-professional',
@@ -8,10 +8,8 @@ import {NavController, NavParams} from 'ionic-angular';
 })
 export class ProfessionalPage {
 public professional : any = {};
-private _navCtrl : NavController;
 
-  constructor(navCtrl: NavController, navParams: NavParams) {
+  constructor( navParams: NavParams ) {
       this.professional = navParams.get('pro');
-      console.log(this.professional);
   }
 }

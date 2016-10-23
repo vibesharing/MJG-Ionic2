@@ -1,0 +1,251 @@
+[{
+  "id": {
+    "$oid": "575ad0d3f5ae45447281eae4"
+  },
+  "position": "Cofondatrice",
+  "company_name": "My Job Glasses",
+  "entity_name": null,
+  "company_sector": "it",
+  "published": true,
+  "first_published_at": "2016-06-10T22:51:31.973+02:00"
+}, {
+  "id": {
+    "$oid": "575ad0d7f5ae45447281eae7"
+  },
+  "position": "Chef de projet, Maître d'ouvrage",
+  "company_name": "Constellium",
+  "entity_name": null,
+  "company_sector": "production_distribution",
+  "published": true,
+  "first_published_at": "2016-06-10T22:51:20.296+02:00"
+}, {
+  "id": {
+    "$oid": "575ad0d8f5ae45447281eae9"
+  },
+  "position": "Head of international banking portfolio",
+  "company_name": "CaixaBank",
+  "entity_name": null,
+  "company_sector": "finance",
+  "published": true,
+  "first_published_at": "2016-06-10T22:51:20.332+02:00"
+}, {
+  "id": {
+    "$oid": "575ad0d8f5ae45447281eaeb"
+  },
+  "position": "IS Digital Project Portfolio Manageur",
+  "company_name": "AXA",
+  "entity_name": "AXA France",
+  "company_sector": "finance",
+  "published": true,
+  "first_published_at": "2016-06-10T22:51:20.375+02:00"
+}, {
+  "id": {
+    "$oid": "575ad0f5f5ae45447281eaf1"
+  },
+  "position": "Manager et responsable projet",
+  "company_name": "AXA",
+  "entity_name": "AXA France",
+  "company_sector": "finance",
+  "published": true,
+  "first_published_at": "2016-06-10T22:51:20.432+02:00"
+}, {
+  "id": {
+    "$oid": "575ad0f6f5ae45447281eaf4"
+  },
+  "position": "Responsable centre de compétences",
+  "company_name": "Jouve",
+  "entity_name": null,
+  "company_sector": "it",
+  "published": true,
+  "first_published_at": "2016-06-10T22:51:20.470+02:00"
+}, {
+  "id": {
+    "$oid": "575ad0f7f5ae45447281eaf6"
+  },
+  "position": "Global Channel Incentives \u0026 Data Manager",
+  "company_name": "HP France",
+  "entity_name": null,
+  "company_sector": "it",
+  "published": true,
+  "first_published_at": "2016-06-10T22:51:20.500+02:00"
+}, {
+  "id": {
+    "$oid": "575ad0f9f5ae45447281eaf8"
+  },
+  "position": "Responsable analyses et projets",
+  "company_name": "Carrefour",
+  "entity_name": null,
+  "company_sector": "production_distribution",
+  "published": true,
+  "first_published_at": "2016-06-10T22:51:20.543+02:00"
+}, {
+  "id": {
+    "$oid": "575ad0fbf5ae45447281eafd"
+  },
+  "position": "Manager Communication Prix",
+  "company_name": "Carrefour",
+  "entity_name": null,
+  "company_sector": "production_distribution",
+  "published": true,
+  "first_published_at": "2016-06-10T22:51:20.592+02:00"
+}, {
+  "id": {
+    "$oid": "575ad0fbf5ae45447281eaff"
+  },
+  "position": "Manager Planification alimentaire",
+  "company_name": "Carrefour",
+  "entity_name": null,
+  "company_sector": "production_distribution",
+  "published": true,
+  "first_published_at": "2016-06-10T22:51:20.640+02:00"
+}, {
+  "id": {
+    "$oid": "575ad0fcf5ae45447281eb01"
+  },
+  "position": "Associate",
+  "company_name": "Velocita Energy Development",
+  "entity_name": null,
+  "company_sector": "finance",
+  "published": true,
+  "first_published_at": "2016-06-10T22:51:20.674+02:00"
+}, {
+  "id": {
+    "$oid": "575ad0fcf5ae45447281eb03"
+  },
+  "position": "Mission Compétitivité et Maîtrise des Coûts",
+  "company_name": "AXA",
+  "entity_name": "AXA France",
+  "company_sector": "finance",
+  "published": true,
+  "first_published_at": "2016-06-10T22:51:20.718+02:00"
+}, {
+  "id": {
+    "$oid": "575ad0fcf5ae45447281eb06"
+  },
+  "position": "MBA student",
+  "company_name": "IMD Business School",
+  "entity_name": null,
+  "company_sector": "production_distribution",
+  "published": true,
+  "first_published_at": "2016-06-10T22:51:20.755+02:00"
+}, {
+  "id": {
+    "$oid": "575ad0fef5ae45447281eb08"
+  },
+  "position": "Directeur",
+  "company_name": "Cogiflex",
+  "entity_name": null,
+  "company_sector": "it",
+  "published": true,
+  "first_published_at": "2016-06-10T22:51:21.254+02:00"
+}, {
+  "id": {
+    "$oid": "575ad0fef5ae45447281eb0a"
+  },
+  "position": "Responsable ALM vie individuelle et dommage",
+  "company_name": "AXA",
+  "entity_name": "AXA France",
+  "company_sector": "finance",
+  "published": true,
+  "first_published_at": "2016-06-10T22:51:21.676+02:00"
+}, {
+  "id": {
+    "$oid": "575ad0fff5ae45447281eb0d"
+  },
+  "position": "Health business transformation",
+  "company_name": "AXA",
+  "entity_name": "AXA Global Life",
+  "company_sector": "finance",
+  "published": true,
+  "first_published_at": "2016-06-10T22:51:21.725+02:00"
+}, {
+  "id": {
+    "$oid": "575ad0fff5ae45447281eb10"
+  },
+  "position": "Chef de groupe travaux",
+  "company_name": "Bouygues Construction",
+  "entity_name": null,
+  "company_sector": "energy_environment_construction",
+  "published": true,
+  "first_published_at": "2016-06-10T22:51:22.933+02:00"
+}, {
+  "id": {
+    "$oid": "575ad101f5ae45447281eb12"
+  },
+  "position": "Consultante SI",
+  "company_name": "AXA",
+  "entity_name": "AXA France",
+  "company_sector": "finance",
+  "published": true,
+  "first_published_at": "2016-06-10T22:51:22.976+02:00"
+}, {
+  "id": {
+    "$oid": "575ad101f5ae45447281eb15"
+  },
+  "position": "Management Consultant",
+  "company_name": "Centigo",
+  "entity_name": null,
+  "company_sector": "audit_counselling",
+  "published": true,
+  "first_published_at": "2016-06-10T22:51:23.014+02:00"
+}, {
+  "id": {
+    "$oid": "575ad102f5ae45447281eb17"
+  },
+  "position": "Directeur Commercial \u0026 Solutions Financières",
+  "company_name": "AXA",
+  "entity_name": "AXA France",
+  "company_sector": "finance",
+  "published": true,
+  "first_published_at": "2016-06-10T22:51:23.076+02:00"
+}, {
+  "id": {
+    "$oid": "575ad102f5ae45447281eb1a"
+  },
+  "position": "Crisis Management \u0026 Business Continuity manager",
+  "company_name": "AXA",
+  "entity_name": "AXA Group Solutions",
+  "company_sector": "finance",
+  "published": true,
+  "first_published_at": "2016-06-10T22:51:23.130+02:00"
+}, {
+  "id": {
+    "$oid": "575ad103f5ae45447281eb1d"
+  },
+  "position": "Head of Digital Agency",
+  "company_name": "AXA",
+  "entity_name": "AXA Assistance",
+  "company_sector": "finance",
+  "published": true,
+  "first_published_at": "2016-06-10T22:51:23.182+02:00"
+}, {
+  "id": {
+    "$oid": "575ad103f5ae45447281eb20"
+  },
+  "position": "Responsable Projets transversaux",
+  "company_name": "AXA",
+  "entity_name": "AXA France",
+  "company_sector": "finance",
+  "published": true,
+  "first_published_at": "2016-06-10T22:51:23.236+02:00"
+}, {
+  "id": {
+    "$oid": "575ad103f5ae45447281eb23"
+  },
+  "position": "Responsable Marketing Opérationnel, Digital",
+  "company_name": "AXA",
+  "entity_name": "AXA Assistance",
+  "company_sector": "finance",
+  "published": true,
+  "first_published_at": "2016-06-10T22:51:23.288+02:00"
+}, {
+  "id": {
+    "$oid": "575ad104f5ae45447281eb26"
+  },
+  "position": "Gérant",
+  "company_name": "Miema",
+  "entity_name": null,
+  "company_sector": "production_distribution",
+  "published": true,
+  "first_published_at": "2016-06-10T22:51:23.704+02:00"
+}]

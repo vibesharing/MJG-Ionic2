@@ -3,6 +3,8 @@ import { Component, OnInit } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 import { ProfessionalPage } from './professional/professional';
 
+import { HttpService } from '../../app/services/http.service';
+
 import { Http } from '@angular/http';
 import {Observable} from 'rxjs/Rx';
 
@@ -15,26 +17,25 @@ import 'rxjs/add/operator/map';
 })
 
 export class ProfessionalsPage implements OnInit {
-  private _http: Http;
+  private _httpService: HttpService;
 
   private _selectedPro: any;
   private _professionals: Array<any>;
 
   private _navCtrl: NavController;
+  private _page: number = 0;
 
-  constructor (navCtrl: NavController, navParams: NavParams, http: Http) {
-    this._http = http;
+  constructor (navCtrl: NavController, navParams: NavParams, httpService: HttpService) {
+    this._httpService = httpService;
     this._navCtrl = navCtrl;
     this._selectedPro = navParams.get('pro');
 
   }
 
   public ngOnInit(): void {
-    this.getProfessionals().subscribe(response => {
+    this._httpService.getProfessionnals().subscribe(response => {
       this._professionals = response;
-    })
-    this.getWeatherInCity('rio').subscribe(response => {
-      console.log(response);
+      this._page = 2 ;
     })
   }
 
@@ -44,15 +45,16 @@ export class ProfessionalsPage implements OnInit {
     });
   }
 
-  public getProfessionals(): Observable<any> {
-    return this._http.get('assets/json/pro1.json')
-      .map(response => response.json())
-      .catch((error: any) => Observable.throw(error.json().error || 'Server error'));
-  }
+   public doInfinite(infiniteScroll) {
 
-  public getWeatherInCity(param: string): any {
-    return this._http.get('http://api.openweathermap.org/data/2.5/weather?q=' + param + '&APPID=295594b2f0f74cb1eafdf26d818de19b' + '&units=metric')
-      .map(response => response.json())
-      .catch((error: any) => Observable.throw(error.json().error || 'Server error'));
+     this._httpService.getProfessionnals(this._page).subscribe(response => {
+        setTimeout(() => {
+            this._professionals = this._professionals.concat(response);
+
+            infiniteScroll.complete();
+            this._page += 1;
+
+        }, 1000);
+    });
   }
 }

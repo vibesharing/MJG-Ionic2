@@ -1,17 +1,19 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Contact
+      Professionals
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content>
   <ion-list>
-    <ion-list-header>Follow us on Twitter</ion-list-header>
-    <ion-item *ngFor="let professional of _professionals" (click)="goToProDetails($event, professional)">
+    <ion-item *ngFor="let professional of _professionals" (click)="goToProDetails($event, professional.id.$oid)">
       <h1>{{professional.company_name}}</h1>
       <h2>{{professional.position}}</h2>
     </ion-item>
   </ion-list>
+  <ion-infinite-scroll (ionInfinite)="doInfinite($event)">
+   <ion-infinite-scroll-content></ion-infinite-scroll-content>
+ </ion-infinite-scroll>
 </ion-content>

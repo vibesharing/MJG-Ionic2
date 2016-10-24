@@ -9,6 +9,8 @@ import { TabsPage } from '../pages/tabs/tabs';
 import { ProfessionalPage} from '../pages/professionals/professional/professional';
 import { ProfessionalsPage} from '../pages/professionals/professionals';
 
+import { HttpService } from './services/http.service';
+
 
 @NgModule({
   declarations: [
@@ -33,6 +35,6 @@ import { ProfessionalsPage} from '../pages/professionals/professionals';
     ProfessionalsPage,
     TabsPage
   ],
-  providers: []
+  providers: [HttpService]
 })
 export class AppModule {}

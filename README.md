@@ -10,6 +10,7 @@ Inside the folder:
 
 4) npm install
 
-5) ionic serve
+3) fill credentials in src/assets/constants/api.ts
 
-important: Working with a local JSON file as I didn't succeed to connect to the Api.
+5) ionic serve -l
+

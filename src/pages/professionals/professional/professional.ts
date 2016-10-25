@@ -15,7 +15,6 @@ private _httpService: HttpService;
 
   constructor( public navParams: NavParams, httpService: HttpService ) {
       this._httpService = httpService;
-      console.log(this.navParams.get('pro'))
   }
 
   public ngOnInit(): void {

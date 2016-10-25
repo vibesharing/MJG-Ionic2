@@ -29,7 +29,6 @@ export class ProfessionalsPage implements OnInit {
     this._httpService = httpService;
     this._navCtrl = navCtrl;
     this._selectedPro = navParams.get('pro');
-
   }
 
   public ngOnInit(): void {
@@ -46,14 +45,12 @@ export class ProfessionalsPage implements OnInit {
   }
 
    public doInfinite(infiniteScroll) {
-
      this._httpService.getProfessionnals(this._page).subscribe(response => {
         setTimeout(() => {
             this._professionals = this._professionals.concat(response);
 
             infiniteScroll.complete();
             this._page += 1;
-
         }, 1000);
     });
   }

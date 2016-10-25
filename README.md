@@ -6,7 +6,7 @@ Inside the folder:
 
 2) git fetch 
 
-3) git checkout dev-local-JSON
+3) git checkout dev
 
 4) npm install
 
